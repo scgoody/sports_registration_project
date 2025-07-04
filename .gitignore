@@ -1,0 +1,51 @@
+# ========================
+# OS-specific junk
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# VS Code
+# ========================
+.vscode/
+
+# ========================
+# Compiled source files
+# ========================
+*.out
+*.exe
+*.obj
+*.o
+*.gch
+
+# ========================
+# Debug files
+# ========================
+*.pdb
+*.idb
+
+# ========================
+# Build files
+# ========================
+/bin/
+/build/
+/debug/
+/release/
+/x64/
+
+# ========================
+# Visual Studio (if ever used)
+# ========================
+*.suo
+*.user
+*.vcxproj.user
+*.log
+*.cache
+
+# ========================
+# CMake generated files (optional)
+# ========================
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
