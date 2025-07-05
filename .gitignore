@@ -1,51 +1,50 @@
-# ========================
-# OS-specific junk
-# ========================
-.DS_Store
-Thumbs.db
-
-# ========================
-# VS Code
-# ========================
-.vscode/
-
-# ========================
-# Compiled source files
-# ========================
-*.out
-*.exe
+# Build results
 *.obj
-*.o
-*.gch
-
-# ========================
-# Debug files
-# ========================
+*.exe
 *.pdb
+*.ilk
+*.aps
+*.pch
+*.lib
+*.dll
+*.exp
 *.idb
 
-# ========================
-# Build files
-# ========================
-/bin/
-/build/
-/debug/
-/release/
-/x64/
-
-# ========================
-# Visual Studio (if ever used)
-# ========================
+# Visual Studio cache and build folders
+.vs/
+ipch/
+*.sdf
+*.opensdf
+*.cache
+*.tlog
+*.log
+*.db
 *.suo
 *.user
-*.vcxproj.user
-*.log
-*.cache
+*.VC.db
+*.VC.VC.opendb
 
-# ========================
-# CMake generated files (optional)
-# ========================
+# Auto-generated folders
+x64/
+x86/
+Debug/
+Release/
+build/
+bin/
+out/
+
+# CMake (if ever used)
 CMakeFiles/
 CMakeCache.txt
-Makefile
 cmake_install.cmake
+Makefile
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.tmp
+*.swp
